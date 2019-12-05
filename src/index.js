@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TestComponent } from './components/TestComponent/TestComponent';
+import { Button } from './components/Button/Button';
 
 const App = () => {
   return (
     <>
-      <TestComponent name="Dan" />
+      <Button text="Click Me!!!!!!!" />
     </>
   );
 };
